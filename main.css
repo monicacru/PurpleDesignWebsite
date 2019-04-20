@@ -173,10 +173,3 @@ html {
 .row > .column {
   padding: 8px;
 }
-
-/* Footer */
-.footer {
-  width:100%;  
-  padding:2em;
-  margin-top:3em;
-}
