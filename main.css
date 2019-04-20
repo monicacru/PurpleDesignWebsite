@@ -165,11 +165,44 @@ html {
 
 .row {
   margin: 8px -16px;
-  height:340px;
+
 }
 
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
   padding: 8px;
+
 }
+
+/* Clear floats after rows (or making the row height equal column height)*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+<<<<<<< HEAD
+=======
+
+/* Footer */
+.footer {
+  width:100%;
+  padding:0em;
+  margin-bottom:3em;
+}
+
+/* Outlined Text */
+
+.outline {
+    color: black;
+    display: inline;
+    font-size: 2em;
+    letter-spacing: -.03em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #A513FE;
+    display: inline-block;
+    display: inline-block;
+    transform: rotate(-5deg);
+}
+>>>>>>> footer
