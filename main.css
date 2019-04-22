@@ -96,7 +96,8 @@ p a:hover{
 
 
 *:focus {
-outline: none;
+outline: 3px solid #E900FF;
+border-radius: 50px;
 }
 
 
