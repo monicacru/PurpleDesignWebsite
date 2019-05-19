@@ -2,6 +2,7 @@
 .main {
   max-width: 1280px;
   margin: auto;
+
 }
 
 body {
@@ -12,6 +13,7 @@ body {
   margin: auto;
   background-image: url(http://monicacrusellas.com/wp-content/uploads/2019/04/hologram.jpg);
   background-repeat: repeat;
+  overflow-x: hidden;
 }
 
 * {
